@@ -14,6 +14,9 @@
 /// </summary>
 class GameScene {
 
+	uint32_t textureHandleBG_ = 0;
+	Sprite* spriteBG_ = nullptr;
+
 public: // メンバ関数
 	/// <summary>
 	/// コンストクラタ
